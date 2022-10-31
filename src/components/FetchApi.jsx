@@ -7,7 +7,7 @@ function FetchApi() {
   /* eslint-disable */
   const [select, setSelect] = useState("");
   const fetchApi = () => {
-    const api = "http://fetest.pangeatech.net/data";
+    const api = "https://fetest.pangeatech.net/data";
 
     fetch(api)
       .then((response) => {
